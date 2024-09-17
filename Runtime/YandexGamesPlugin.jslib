@@ -24,7 +24,7 @@ const yandexGamesLibrary = {
       yandexGames.isInitializeCalled = true;
 
       const sdkScript = document.createElement('script');
-      sdkScript.src = '/sdk.js';
+      sdkScript.src = 'https://sdk.games.s3.yandex.net/sdk.js';
       document.head.appendChild(sdkScript);
 
       sdkScript.onload = function () {
